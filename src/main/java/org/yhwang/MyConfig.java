@@ -1,13 +1,13 @@
-package org.sang;
+package org.yhwang;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by sang on 16-12-12.
+ * 扫描所有的组件
  */
 @Configuration
-@ComponentScan("org.sang")
+@ComponentScan("org.yhwang")
 public class MyConfig {
 
 }

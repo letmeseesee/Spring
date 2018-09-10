@@ -1,17 +1,16 @@
-package org.sang;
+package org.yhwang;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
 /**
- * Created by sang on 16-12-12.
+ * Autowired注入组件
  */
-//@Service//效果等同于如下几种
-//    @Component
-//    @Repository
-@Controller
+
+@Component
 public class UseFunctionService {
-//    @Resource
+
     @Autowired
     FunctionService functionService;
     public String sayHello(String word) {
