@@ -10,6 +10,9 @@ public class Main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfig.class);
         UseComponent bean = context.getBean(UseComponent.class);
         System.out.println(bean.sayHello("wang"));
+
+        GoodByeFunction GoodBye = context.getBean(GoodByeFunction.class);
+        GoodBye.SayGoodBye();
         context.close();
     }
 }
