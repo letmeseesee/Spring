@@ -13,6 +13,10 @@ public class Main {
 
         GoodByeFunction GoodBye = context.getBean(GoodByeFunction.class);
         GoodBye.SayGoodBye();
+
+        Properties properties = context.getBean(Properties.class);
+        properties.outSource();
+
         context.close();
     }
 }
