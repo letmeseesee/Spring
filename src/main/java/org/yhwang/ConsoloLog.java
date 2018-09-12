@@ -1,19 +1,33 @@
 package org.yhwang;
 
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
 
 @Aspect
 public class ConsoloLog {
     @Pointcut("execution( * org.yhwang.GoodByeFunction.SayGoodBye(..))")
-    public void BeforeFinish(){
+    public void AfterFinish(){
     }
 
 
-    @After("BeforeFinish()")
+    @After("AfterFinish()")
     public void DoAfter(){
         System.out.println("After SayGoodBye!");
     }
+
+    @Before("AfterFinish()")
+    public void DoBefore(){
+        System.out.println("Before SayGoodBye!");
+    }
+
+    @Around("AfterFinish()")
+    public void DoAround(ProceedingJoinPoint joinPoint){
+        try {
+            System.out.println("Around Start!");
+            joinPoint.proceed();
+        }catch (Throwable throwable){
+            System.out.println("Around Finish!");
+        }
+    }
+
 }
