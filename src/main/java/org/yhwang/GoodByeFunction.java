@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Primary
 public class GoodByeFunction {
 
-    public void SayGoodBye(){
-        System.out.println("Good Bye");
+    public void SayGoodBye(String user){
+        System.out.println("Good Bye" + user);
     }
 }

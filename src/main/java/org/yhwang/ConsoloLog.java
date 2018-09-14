@@ -5,28 +5,31 @@ import org.aspectj.lang.annotation.*;
 
 @Aspect
 public class ConsoloLog {
-    @Pointcut("execution( * org.yhwang.GoodByeFunction.SayGoodBye(..))")
-    public void AfterFinish(){
+    @Pointcut("execution( * org.yhwang.GoodByeFunction.SayGoodBye(String)) && args(user)")
+    public void AfterFinish(String user){
     }
 
 
-    @After("AfterFinish()")
-    public void DoAfter(){
-        System.out.println("After SayGoodBye!");
+    @After("AfterFinish(user)")
+    public void DoAfter(String user){
+        System.out.println(user + " After SayGoodBye!");
     }
 
-    @Before("AfterFinish()")
-    public void DoBefore(){
-        System.out.println("Before SayGoodBye!");
+    @Before("AfterFinish(user)")
+    public void DoBefore(String user){
+        System.out.println(user + " Before SayGoodBye!");
     }
 
-    @Around("AfterFinish()")
+    @Around("execution( * org.yhwang.GoodByeFunction.SayGoodBye(..))")
     public void DoAround(ProceedingJoinPoint joinPoint){
+        Object[] args = joinPoint.getArgs();
         try {
-            System.out.println("Around Start!");
+            System.out.println(args[0] + " Around Start!");
             joinPoint.proceed();
         }catch (Throwable throwable){
-            System.out.println("Around Finish!");
+            throwable.printStackTrace();
+        }finally {
+            System.out.println(args[0] + " Around Finish!");
         }
     }
 

@@ -4,6 +4,8 @@
     <list default="true" id="430fe58d-1598-4ed8-b5e5-281217cfabdd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/yhwang/ConsoloLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/yhwang/ConsoloLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/yhwang/GoodByeFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/yhwang/GoodByeFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/yhwang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/yhwang/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,15 +85,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="267" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="331" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="267" />
-          <entry key="txt" value="10" />
+          <entry key="java" value="331" />
+          <entry key="txt" value="16" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -103,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="266">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -147,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/ConsoloLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="145">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
@@ -163,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/GoodByeFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="209">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
@@ -202,14 +204,14 @@
         <option value="$PROJECT_DIR$/src/main/java/org/yhwang/UseFunctionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yhwang/UseComponent.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/yhwang/UseFunctionServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/yhwang/GoodByeFunction.java" />
         <option value="$PROJECT_DIR$/src/main/resources/app" />
-        <option value="$PROJECT_DIR$/src/main/java/org/yhwang/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yhwang/BeanConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yhwang/PropertiesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yhwang/Properties.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/yhwang/MyConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/yhwang/GoodByeFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/yhwang/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yhwang/ConsoloLog.java" />
       </list>
     </option>
@@ -238,11 +240,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="104" />
-    <option name="y" value="51" />
-    <option name="width" value="1751" />
-    <option name="height" value="887" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -275,14 +276,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yhwang" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -295,7 +288,7 @@
     <property name="SearchEverywhereHistoryKey" value="GoodByeFunction&#9;FILE&#9;file://D:/work/yhwangSpring/src/main/java/org/yhwang/GoodByeFunction.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536765560771" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536937821481" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -383,7 +376,7 @@
       <workItem from="1536564855183" duration="1607000" />
       <workItem from="1536571061573" duration="7703000" />
       <workItem from="1536645244603" duration="6714000" />
-      <workItem from="1536761482437" duration="3872000" />
+      <workItem from="1536761482437" duration="5813000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1536565275496</created>
@@ -441,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536765184632</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Around切面">
+      <created>1536765584909</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536765584909</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Around切面">
+      <created>1536765648114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536765648114</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -459,10 +466,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19896000" />
+    <option name="totallyTimeSpent" value="21837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
@@ -475,7 +482,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934928" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3625954" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4491094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.16334662" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,7 +498,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.21030043" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.21030043" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -510,7 +517,8 @@
     <MESSAGE value="Junit测试" />
     <MESSAGE value="自动装配的方式" />
     <MESSAGE value="引入切面" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入切面" />
+    <MESSAGE value="Around切面" />
+    <option name="LAST_COMMIT_MESSAGE" value="Around切面" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -587,14 +595,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/GoodByeFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/MyConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -609,29 +617,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/MyConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/GoodByeFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="209">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/yhwang/ConsoloLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="145">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />

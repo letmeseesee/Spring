@@ -12,7 +12,7 @@ public class Main {
         System.out.println(bean.sayHello("wang"));
 
         GoodByeFunction GoodBye = context.getBean(GoodByeFunction.class);
-        GoodBye.SayGoodBye();
+        GoodBye.SayGoodBye("yhwang");
 
         Properties properties = context.getBean(Properties.class);
         properties.outSource();
